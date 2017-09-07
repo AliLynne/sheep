@@ -1,0 +1,2 @@
+class Shep < ApplicationRecord
+end

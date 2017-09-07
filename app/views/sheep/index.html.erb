@@ -1,1 +1,9 @@
 <h1>Sheep</h1>
+<ul>
+<% @sheps.each do |sheep| %>
+  <li>
+    <%= sheep.name %>
+    <%= sheep.age %>
+  </li>
+<% end %>
+</ul>
